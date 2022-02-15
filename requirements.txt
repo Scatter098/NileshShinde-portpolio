@@ -45,6 +45,7 @@ numpy==1.17.4
 oauthlib==3.1.0
 olefile==0.46
 paramiko==2.6.0
+pbr==5.8.1
 pexpect==4.6.0
 Pillow==7.0.0
 platformdirs==2.5.0
@@ -71,6 +72,7 @@ SecretStorage==2.3.1
 simplejson==3.16.0
 six==1.14.0
 sqlparse==0.4.2
+testresources==2.0.1
 ubuntu-drivers-common==0.0.0
 ufw==0.36
 urllib3==1.25.8
@@ -82,4 +84,3 @@ xkit==0.0.0
 zorin-appearance==4.1
 zorin-connect==1.0
 zorin-exec-guard==1.4
-apturl==0.5.2
