@@ -82,3 +82,4 @@ xkit==0.0.0
 zorin-appearance==4.1
 zorin-connect==1.0
 zorin-exec-guard==1.4
+apturl==0.5.2
