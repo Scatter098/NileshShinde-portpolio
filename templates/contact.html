@@ -1,0 +1,85 @@
+
+{%extends 'base.html'%}
+
+{%block title%}Index{%endblock title%}
+
+{% load static %}
+
+<link rel="stylesheet" type="text/css" href="{% static 'style.css' %}"> 
+
+{% block body%}
+{% load static %}
+
+    
+<body class="website-background-black">	
+	
+		
+	
+		
+	<div class="top-bottom-margin">
+		<div class="hide-text-block">
+			<h2 class="text-color-white animate">Let's make something great!</h2>
+		</div>		
+		
+		<div class="max-width-70 text-color-white animate delay02">
+			<h4>Contact</h4>
+			<p>
+I'm seeking out opportunities to collaborate with companies / agencies / individuals, not just work for them. I want to bring my collectives skills to the table where we can work together to solve real business and develpoment-problems in a way that optimizes all of our respective experience and knowledge.
+			</p>
+			<p>
+			</p>
+			<p>
+Feel free to reach out through any platforms bellow:
+			</p>
+
+			<div class="links">
+				<a class="on-hover-40 text-color-red label-email copy-email"></a>
+				<a class="on-hover-40 text-color-red" href="https://github.com/Scatter098" target="_blank">Github</a>
+				<a class="on-hover-40 text-color-red" href="https://instagram.com/nil_s___?utm_medium=copy_link" target="_blank">Instagram</a>
+				<a class="on-hover-40 text-color-red" href="https://www.kaggle.com/nuke098" target="_blank">Kaggle</a>
+				<a class="on-hover-40 text-color-red" href="www.linkedin.com/in/nilesh-shinde-" target="_blank">Linkedin</a>
+			</div>			
+
+		</div>
+	</div>
+	
+	
+	</div> <! end max-width ->
+
+
+
+<!-- Yall lazy load -->
+<script src="https://polyfill.io/v2/polyfill.min.js?features=IntersectionObserver"></script>
+<script src="../js/yall.min.js"></script>
+<script type="text/javascript">
+	document.addEventListener("DOMContentLoaded", yall);
+</script>
+
+
+<!-- Copy to clipboard -->
+<script src="../js/clipboard.min.js"></script>
+<script>
+	var clipboard = new ClipboardJS('.copy-email', {
+		text: function() {
+		return 'hello@dejan.works';
+	}
+	});
+		clipboard.on('success', function(e) {
+		console.log(e);
+	});	
+		clipboard.on('error', function(e) {
+		console.log(e);
+	});
+</script>
+
+
+</body>
+</html>
+
+
+  
+      
+    
+  
+  
+{% endblock body%}
